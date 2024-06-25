@@ -1,0 +1,40 @@
+.main {
+    text-align: center;
+    height: 800px;
+    background-color: aliceblue;
+    color: rgb(9, 54, 167);
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    padding-top: 250px;
+}
+.h1 {
+    font-size: 300%;
+}
+
+#about-me, #resume, #portfolio-main {
+    padding-top: 70px;
+    width: 80%;
+    margin: auto;
+    font-family: Noto Sans, sans-serif;
+}
+
+#about-me .h2, #resume .h2{
+    font-size: 150%;
+}
+
+.about-me-section {
+    height: 300px;
+    border: solid 0.5px;
+}
+
+.aspectRatioBox {
+    padding-top: calc(2 / 3 * 100%);
+    background-size: cover;
+    background-position: center;
+    margin-top: 7%;
+  }
+
+  footer{
+    margin-top: 50px;
+    height: 200px;
+    background-color: aliceblue;
+  }
