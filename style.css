@@ -1,14 +1,21 @@
 .main {
-    text-align: center;
-    height: 800px;
-    background-color: aliceblue;
-    color: rgb(9, 54, 167);
+    background: linear-gradient(rgba(100, 150, 214, 0.294), rgba(190, 218, 213, 0.809)), 
+    url("./images/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #0180a4f7;
+    height: 650px;
+    padding-top: 350px;
     font-family: Brush Script MT, Brush Script Std, cursive;
-    padding-top: 250px;
+    text-align: center;
 }
+
+
 .h1 {
     font-size: 300%;
 }
+
 
 #about-me, #resume, #portfolio-main {
     padding-top: 70px;
@@ -22,15 +29,35 @@
 }
 
 .about-me-section {
-    height: 300px;
-    border: solid 0.5px;
+    height: auto;
 }
+
+#highlight ul {
+    list-style: none;
+    padding: 0px;
+}
+
+#highlight ul li:before
+{
+    content: '☆';
+    margin: 0 1em;   
+}
+.sub-list {
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.sub-list ul li:before
+{
+    content: '・'!important;
+    margin: 0 1em;   
+}
+
 
 .aspectRatioBox {
     padding-top: calc(2 / 3 * 100%);
     background-size: cover;
     background-position: center;
-    margin-top: 7%;
   }
 
   footer{
