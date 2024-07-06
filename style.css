@@ -1,0 +1,96 @@
+.main {
+    background: linear-gradient(rgba(100, 150, 214, 0.294), rgba(190, 218, 213, 0.809)), 
+    url("./images/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #0180a4f7;
+    height: 650px;
+    padding-top: 350px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+}
+
+
+.h1 {
+    font-size: 300%;
+}
+#about-me, #resume {
+    padding-bottom: 80px;
+}
+
+#about-me, #resume, #portfolio-main {
+    padding-top: 70px;
+    width: 80%;
+    margin: auto;
+    font-family: Noto Sans, sans-serif;
+}
+
+#resume, #portfolio-main {
+    border-top: 5px rgb(232, 250, 250) solid;
+}
+
+#about-me .h2, #resume .h2{
+    font-size: 150%;
+}
+
+.about-me-section {
+    height: auto;
+}
+
+#highlight ul {
+    list-style: none;
+    padding: 0px;
+}
+
+#highlight ul li:before
+{
+    content: '☆';
+    margin: 0 1em;   
+}
+
+#my-pic{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.sub-list {
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.sub-list ul li:before
+{
+    content: '・'!important;
+    margin: 0 1em;   
+}
+
+.Portfolio-pic{
+    border: 0.5px solid;
+}
+
+.aspectRatioBox {
+    padding-top: calc(2 / 3 * 100%);
+    background-size: cover;
+    background-position: center;
+  }
+
+ .aspectRatioBox-1 {
+    padding-top: calc(2 / 3 * 50%);
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+ }
+
+  #topbutton a{
+    text-decoration: none;
+    color: rgb(62, 148, 158);
+    font-size: 50px;
+    margin-left: 90%;
+  }
+
+  footer{
+    margin-top: 50px;
+    height: 200px;
+    background-color: aliceblue;
+  }
