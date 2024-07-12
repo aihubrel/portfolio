@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(249, 249, 240);
+}
+
 .main {
     background: linear-gradient(rgba(100, 150, 214, 0.294), rgba(190, 218, 213, 0.809)), 
     url("./images/main.jpg");
@@ -19,20 +23,24 @@
     padding-bottom: 80px;
 }
 
-#about-me, #resume, #portfolio-main {
+#about-me, #resume, #portfoliomain {
     padding-top: 70px;
     width: 80%;
     margin: auto;
     font-family: Noto Sans, sans-serif;
 }
 
-#resume, #portfolio-main {
+#about-me .h2, #resume .h2, #portfoliomain .h2 {
+    font-size: 150%;
+    color: rgb(11, 11, 109);
+    font-weight: bolder;
+}
+
+
+#resume, #portfoliomain {
     border-top: 0.5px rgb(124, 122, 122) solid;
 }
 
-#about-me .h2, #resume .h2{
-    font-size: 150%;
-}
 
 .about-me-section {
     height: auto;
@@ -51,7 +59,7 @@
 
 #my-pic{
     padding-left: 50px;
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 .sub-list {
@@ -76,21 +84,23 @@
   }
 
  .aspectRatioBox-1 {
-    padding-top: calc(2 / 3 * 50%);
-    height: 100px;
+    padding-top: calc(2 / 3 * 65%);
     background-size: cover;
     background-position: center;
  }
 
   #topbutton a{
     text-decoration: none;
-    color: rgb(62, 148, 158);
+    color: rgba(62, 148, 158, 0.308);
     font-size: 50px;
     margin-left: 90%;
   }
 
   footer{
+    border-top: 0.5px rgb(208, 215, 220) solid;
     margin-top: 50px;
     height: 200px;
     background-color: aliceblue;
+    padding-top: 50px;
+    text-align: center;
   }
